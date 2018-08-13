@@ -1,0 +1,34 @@
+<!doctype html>
+
+<style>
+#outer {
+ display: flex;
+ flex-direction: column;
+ height: 100vh;
+}
+
+#top {
+ display: flex;
+ flex-direction: column;
+ flex: 0 0 auto;
+}
+
+#bottom {
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+ flex: 1 1 auto;
+}
+
+#content {
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+}
+</style>
+<div id="outer">
+  <div id="top">Some top</div>
+  <div id="bottom">
+    <div id="content">Some content</div>
+  </div>
+</div>
